@@ -1,18 +1,39 @@
 <!DOCTYPE html>
 <html lang = "en">
 	<head>
+		<title>My First Bitstarter</title>
 		<meta charset = "utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-		<title>My First Bitstarter</title>
-		<link rel="stylesheet" type="text/css" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-2.3.2.css">
+		<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">	
+		<link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
 		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
+		<link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css"> 
 		<style type="text/css">
 		/* Large desktop*/
-		@media (min-width: 980px) {
-			body {
-				padding-top: 60px;
+		@media (min-width: 980px) { 
+        body {
+         padding-top: 60px;
+        }
+       .linediv-l {
+         border-right: 1px white solid;
+        }
+       .linediv-r {
+         border-left: 1px white solid;
+       }
+      }
+
+		/* Landscape phones and down  */
+		@media (max-width: 480px) {
+			.copy {
+				padding: 2.5% 10%;
+			}
+			linediv-l {
+				border-bottom: 1px white solid;
+			}
+			linediv-r {
+				border-top: 1px white solid;
 			}
 		}
 
@@ -93,10 +114,46 @@
 
 			<div class="row-fluid pitch">
 				<div class="span5 offset1 video">
-					<img class="img-polaroid" src="http://placehold.it/480x30"> 
+					<img class="img-polaroid" src="http://placehold.it/480x300"> 
 				</div>
 
+				<div class="span5 actions">
+					<div class="span8 offset2">
+						<div class="statistics">
+							<div class="span4">
+								<div class="linediv-l">
+									<h3>1000</h3><p>backers</p>
+								</div>
+							</div>
+							 <div class="span4">
+                <div class="linediv-c">
+                  <h3>$6000</h3> <p>of $10,000</p>
+                </div>
+              </div>
+							<div class="span4">
+								<div class="linediv-r">
+									<h3>10</h3><p>days left</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="span10 offset1">
+						<div class="thermometer progress active">
+							<div class="bar bar-success" style="width: 60%;"></div>
+							<div class="bar bar-warning" style="width: 40%;"></div>
+						</div>
+					</div>
+					<div class="span6 offset3 order">
+						<button class="btn btn-success btn-large">Preorder</button>
+					</div>
+					<div class="span8 offset2 social">
+						<button class="btn btn-twitter"> <i class = "icon-twitter"></i> | Twitter</button>
+						<button class = "btn btn-facbook"> <i  class = "icon-facebook"></i> | Facebook</button>
+					</div>
+				</div>
 			</div>
+
+
 
 		</div>
 	 </body>
