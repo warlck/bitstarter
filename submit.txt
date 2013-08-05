@@ -1,1 +1,1 @@
-https://github.com/warlck/bitstarter/blob/676137638727348fa58203b7ee336c5eadfd05d4/index.html
+https://raw.github.com/warlck/bitstarter/6dfdc880cb8cba0e4eab02b9a03a941c07998d74/index.html
